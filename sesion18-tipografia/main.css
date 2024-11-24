@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Micro 5", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+#pagina {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#pagina div {
+    width: 30%;
+    height: 300px;
+    overflow: auto;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+}
+
+#caja1 {
+    font-family: "Jacquard 12", system-ui;
+}
+
+#caja2 {
+    font-family: "Notable", sans-serif;    
+}
+#caja3 {
+    font-family: "Butcherman", system-ui;
+}
+
+#caja4 {
+    font-family: "Emilys Candy", serif;
+}
+
+#caja5 {
+    font-family: "Monoton", sans-serif;
+}
+
+#caja6 {
+    font-family: "Nabla", system-ui;
+}
+
+#caja7 {
+    font-family: "Honk", system-ui;
+}
+
+#caja8 {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+#caja9 {
+    font-family: "Audiowide", sans-serif;
+}
