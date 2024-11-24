@@ -51,17 +51,31 @@ section {
 }
 
 a {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 50px;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     filter: saturate(0);
 }
 
 a:hover img {
     filter: saturate(1);
 }
+
+.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 50px;
+  }
+
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
