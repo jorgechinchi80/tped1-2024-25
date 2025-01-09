@@ -1,0 +1,25 @@
+#logo{
+    height: 15vh;
+}
+
+#navegacion{
+    height: 80vh;
+}
+
+#contenido{
+    height: 80vh;
+}
+
+#pie{
+    height: 5vh;
+}
+
+@media (max-width: 576px) { 
+    #navegacion{
+        height: 40vh;
+    }
+
+    #contenido{
+        height: 40vh;
+    }
+}

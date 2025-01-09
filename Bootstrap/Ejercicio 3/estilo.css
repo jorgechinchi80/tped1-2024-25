@@ -1,0 +1,29 @@
+#logo{
+    height: 15vh;
+}
+
+#navegacion{
+    height: 95vh;
+}
+
+#contenido{
+    height: 80vh;
+}
+
+#pie{
+    height: 5vh;
+}
+
+.col-sm-8{
+    padding: 0vh;
+}
+
+@media (max-width: 576px) { 
+    #navegacion{
+        height: 40vh;
+    }
+
+    #contenido{
+        height: 40vh;
+    }
+}
