@@ -1,0 +1,125 @@
+main > * {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 4.5vw;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+
+nav {
+    background-color: black;
+    width: 100vw;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: 1vw;
+    margin: 1vw;
+}
+
+section {
+    background-color: red;
+    text-align: center; 
+    width: 100vw;
+}
+
+sidebar {
+    background-color: black;
+    width: 100vw;
+}
+
+h2 {
+    color: red;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+sidebar p {
+    color: white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) { 
+    nav {
+        background-color: black;
+        width: 100vw; 
+    }
+
+    section {
+        background-color: red;
+        width: 100vw; 
+    }
+    
+    sidebar {
+        background-color: black;
+        display: block;
+        width: 100vw; 
+    }
+}
+
+@media (min-width: 992px) { 
+    nav {
+        background-color: black;
+        width: 20vw; 
+    }
+    
+    nav li {
+        display: block;
+    }
+
+    section {
+        background-color: red;
+        width: 60vw; 
+    }
+    
+    sidebar {
+        background-color: black;
+        width: 20vw; 
+    }    
+}
+
+@media (min-width: 1200px) { 
+}
